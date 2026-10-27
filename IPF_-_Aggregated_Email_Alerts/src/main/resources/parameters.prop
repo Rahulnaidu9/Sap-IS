@@ -1,0 +1,14 @@
+#
+#Wed Oct 07 09:24:41 UTC 2026
+ALERT_ccRecipients=kishore.eppalagudem@teck.com,Piyush.Goyal@teck.com,Niththila.Mohanraj@teck.com,Dudekula.Kullayappa@teck.com,Ramani.Jaddu@teck.com,AnilKumar.Navagana@teck.com,TammireddySidda.SaiDattaVenkat@teck.com,Shovandev.Chatterjee@teck.com,Monika.SD@teck.com
+ALERT_defaultRecipients=
+ALERT_fromEmail=noreply@teck.com
+LocationID=SCC_CPIDEV
+Mail\ Authentication=none
+Mail\ Credential=
+Mail\ Protection=off
+Mail\ Proxy\ Type=sapcc
+Mail\ Timeout\ (in\ ms)=30000
+Parameter=IPF_-_Aggregated_Email_Alerts
+Timeout\ in\ mins=3
+smtpAddress=teck-smtp\:25
