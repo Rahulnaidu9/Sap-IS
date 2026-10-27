@@ -1,0 +1,22 @@
+#
+#Wed Oct 07 09:25:20 UTC 2026
+AEM\ Host=tcps\://mr-connection-8gbb2daqpvj.messaging.solace.cloud\:55443
+AEM\ SEMP\ Manager\ Credential=AEMManager_CRED
+AEMCredential=AEM_CRED
+AEMUsername=solace-cloud-client
+ASB_DeadLetterTopicName=retry_deadletter
+ASB_SharedAccessSignature=sasToken_DLQ_Topic
+ASB_Subscription_Create=https\://pemetrmqa.servicebus.windows.net/${property.retry_deadLetterTopicName}/subscriptions/${header.retry_iflowName}
+ASB_Subscription_Filter=https\://pemetrmqa.servicebus.windows.net/${property.retry_deadLetterTopicName}/subscriptions/${header.retry_iflowName}/rules/retry_filter
+AlertAddRecipients=TammireddySidda.SaiDattaVenkat@teck.com
+AlertFramework=IPF_-_Individual_Alerts
+DLQ_Topic_URL=pemetrmdev.servicebus.windows.net
+Query=timeout\=60&api-version\=2015-01
+Time\ to\ Live\ (ms)=2592000000
+alertAddReceipents=rgupta@pembina.com
+alertStandarError=true
+alertStandardError=true
+messageVPN=teck-uswest2-aemdev
+sempURI=mr-connection-8gbb2daqpvj.messaging.solace.cloud\:943
+sys=
+timeout=60000
