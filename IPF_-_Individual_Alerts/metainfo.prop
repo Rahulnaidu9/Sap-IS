@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Tue Oct 27 08:21:56 UTC 2026
+description=Shared service to send immediate email alerts; consumers can send a default error alert or custom email alert as needed
