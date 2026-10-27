@@ -1,0 +1,20 @@
+#
+#Wed Oct 07 09:26:31 UTC 2026
+CCEmail=Piyush.Goyal@teck.com
+CPIDelete_Address=https\://integration-dev-3lwhdyh9.it-cpi009.cfapps.us20.hana.ondemand.com/api/v1/
+CPIDelete_Authentication=OAuth2ClientCredentials
+CPIDelete_Credential=SAPIS_API_CRED
+CPIDelete_Proxytype=default
+CPIDelete_Timeout=1
+CPIFetch_Address=https\://integration-dev-3lwhdyh9.it-cpi009.cfapps.us20.hana.ondemand.com/api/v1/DataStores
+CPIFetch_Authentication=OAuth2 Client Credentials
+CPIFetch_CredentialName=SAPIS_API_CRED
+CPIFetch_Method=GET
+CPIFetch_Proxytype=default
+CPIFetch_Timeout=60000
+EnablePayloadLogging=true
+MessageType=Datastore Delete
+Processdirect_Address=IPF_-_Individual_Alerts
+Receiver=SAP IS
+Sender=User Input
+ToEmail=Piyush.Goyal@teck.com

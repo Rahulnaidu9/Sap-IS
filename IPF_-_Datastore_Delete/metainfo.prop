@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Tue Oct 27 08:21:20 UTC 2026
+description=A generic integration flow designed to facilitate Data Store deletion within the middleware environment.
+source=CPI endpoint
+target=CPI IS Datastore
