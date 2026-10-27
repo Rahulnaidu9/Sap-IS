@@ -1,0 +1,16 @@
+#
+#Wed Oct 07 09:30:33 UTC 2026
+AEMAuthType=BASIC
+AEMConsumerMode=GUARANTEED
+AEMCredential=AEM_CRED
+AEMDMQName=iConstruye_to_SAP_S4_-_Factored_Invoice_Status_-_I031/HoldQ
+AEMHost=tcps\://mr-connection-8gbb2daqpvj.messaging.solace.cloud\:55443
+AEMMessageVpn=teck-uswest2-aemdev
+AEMProxyType=INTERNET
+AEMUsername=solace-cloud-client
+alertAddRecipients=
+alertAddress=IPF_-_Individual_Alerts
+alertStandardError=true
+documentID=600-3038-33-2026-09-10T18\:32\:53.161743723Z
+interfaceID=I031
+messageID=AGrD0APaiDOOOotIqhSp-KtWb-PI
